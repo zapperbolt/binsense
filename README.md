@@ -1,37 +1,37 @@
-# BinSense React / JavaScript migration
+# BinSense
 
-This is the new React + JavaScript version, kept beside the existing `index.html` and `server.py` while the migration is in progress. The original app remains available and unchanged.
-
-## Current first slice
-
-- React scan, guide, nearby collection points, and local community screens.
-- The 15 existing item guides are carried over, with 10 additional presets for plastic bags, shampoo bottles, magazines, egg trays, foil, empty aerosol cans, light bulbs, laptops, power banks and ceramic/Pyrex cookware. New guidance follows [NEA's Recycling Guide v6](https://www.nea.gov.sg/docs/default-source/our-services/waste-management/recycling-guide_v6.pdf); ambiguous material or condition stays explicit.
-- MobileNet runs in the browser as a speed baseline. Its standard model uses general ImageNet labels, not waste categories; use Gemini for disposal suggestions and treat MobileNet output as rough labels only.
-- Optional Gemini photo and chat routes run through Node. The API key stays on the Node side.
-- The Node endpoint fetches and caches NEA location datasets for six hours.
+BinSense helps people sort household waste in Singapore. It uses a React interface, a local Node.js server for Gemini and collection-point data, and an on-device MobileNet option for quick image labels.
 
 ## Run locally
 
-Requirements: Node.js 20+ and an internet connection. From this directory:
+You need Node.js and pnpm. Keep the project folder on your computer; GitHub stores the code but does not run the app.
 
-```sh
+1. Create a .env file in the project root and add your Gemini key:
+
+GEMINI_API_KEY=your_key_here
+
+Keep this key private. The .env.example file shows the expected format.
+
+2. In Terminal, open the project folder and run:
+
 pnpm install
 pnpm run server
-```
 
-Then in a second Terminal window:
+3. Leave that Terminal window running. Open a second Terminal window in the same folder and run:
 
-```sh
 pnpm run dev
-```
 
-Open the Vite URL shown in Terminal. The Node server reads the existing `../.env` file. `GEMINI_API_KEY` is optional for MobileNet and location lookup, but required for hosted Gemini analysis and chat. Do not put API keys in `src/` or browser code.
+4. Open the local address Vite prints, usually http://localhost:5173.
 
-To build a production bundle, run `pnpm run build`, then `pnpm run server`; Node serves `dist/` and the API from the same origin.
+Gemini image analysis and chat need a valid API key and internet access. MobileNet runs in the browser and is a fast, general-purpose image model; its labels are less reliable for waste sorting.
 
-## Current limitations and next work
+## Project files
 
-- Standard MobileNet is not a waste-trained model and does not detect multiple objects. The label-to-item bridge is intentionally a weak baseline, not a trusted classification result.
-- The nearby page carries over the Leaflet map, uses browser location when granted, and sorts collection-point cards by distance.
-- The current catalog contains 25 items. Continue expanding it only with matching Singapore-specific guidance.
-- The existing `server.py` and root `index.html` remain intact during migration and can be used as a fallback.
+- src/ — React screens, styling, and item guide data.
+- server.js — local Node.js API for Gemini and collection-point data.
+- index.html — browser page loaded by Vite.
+- vite.config.js — development server configuration.
+- package.json and pnpm-lock.yaml — project scripts and dependency versions.
+- .env.example and .gitignore — environment variable example and files Git should ignore.
+
+To make a production build, run pnpm run build. The Node.js server can then serve the built app and API together.
