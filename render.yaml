@@ -1,0 +1,28 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# One web service runs the Node server, which serves both the API and the
+# built React app from the same origin.
+services:
+  - type: web
+    name: binsense
+    runtime: node
+    plan: free
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm run build
+    startCommand: pnpm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: GEMINI_MODEL
+        value: gemini-3.8-flash
+      # Set the real key in the Render dashboard; never commit it.
+      - key: GEMINI_API_KEY
+        sync: false
+    # NOTE: the free plan has no persistent disk, so bin reports and
+    # corrections (stored in ./data) reset on every redeploy or restart.
+    # On a paid plan, add a disk and point DATA_DIR at it:
+    # disk:
+    #   name: binsense-data
+    #   mountPath: /var/data
+    # and set DATA_DIR=/var/data

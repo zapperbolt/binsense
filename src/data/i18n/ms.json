@@ -1,0 +1,177 @@
+{
+  "plastic-bottle": {
+    "name": "Botol minuman plastik",
+    "material": "Plastik · bekas",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan dahulu. Jika ada sisa minuman, bilas. Kitar semula di Singapura dikumpul secara bercampur, jadi bahan kitar semula plastik, kertas, logam dan kaca yang diterima dimasukkan ke dalam tong biru yang sama.",
+    "tip": "Simbol kitar semula sahaja tidak membuktikan sesuatu barang diterima. Periksa barang itu dan pastikan tiada makanan atau cecair."
+  },
+  "aluminium-can": {
+    "name": "Tin minuman aluminium",
+    "material": "Logam · bekas minuman",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan tin. Letakkan bersama bahan kitar semula lain yang diterima di dalam tong biru. Jika ada tanda deposit minuman, semak arahan pemulangan sebelum mengitar semula.",
+    "tip": "Sisa makanan atau cecair boleh mencemarkan bahan kitar semula. Kosongkan dan bilas hanya jika perlu."
+  },
+  "glass-jar": {
+    "name": "Botol atau balang kaca",
+    "material": "Kaca · bekas",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan botol atau balang dan letakkan bersama bahan kitar semula yang diterima di dalam tong biru. Jangan masukkan kaca pecah secara longgar kerana ia boleh mencederakan orang.",
+    "tip": "Perkakas memasak kaca, cermin dan seramik berbeza daripada bekas kaca—semak panduan tempatan sebelum mengasingkan."
+  },
+  "cardboard": {
+    "name": "Kotak kadbod bersih",
+    "material": "Kertas · pembungkusan",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Leperkan kadbod yang bersih dan kering sebelum memasukkannya ke dalam tong biru. Buang sisa makanan atau bahagian yang sangat kotor.",
+    "tip": "Pembungkusan kertas yang berminyak atau bernoda makanan tidak boleh dimasukkan ke dalam tong kitar semula biru."
+  },
+  "newspaper": {
+    "name": "Surat khabar",
+    "material": "Kertas · kertas akhbar",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Pastikan surat khabar bersih dan kering, kemudian masukkan ke dalam tong kitar semula biru. Kertas basah atau tercemar makanan tidak boleh dimasukkan.",
+    "tip": "Kertas mesti bersih dan kering untuk dikitar semula."
+  },
+  "metal-food-can": {
+    "name": "Tin makanan logam",
+    "material": "Logam · pembungkusan makanan",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan dan bilas tin, kemudian masukkan ke dalam tong kitar semula biru. Tin makanan bukan bekas pemulangan minuman 10¢.",
+    "tip": "Buang sisa makanan; jangan gunakan mesin botol dan tin Return Right untuk tin makanan."
+  },
+  "plastic-container": {
+    "name": "Bekas makanan plastik",
+    "material": "Plastik keras · pembungkusan makanan",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan dan bilas bekas plastik keras, kemudian masukkan ke dalam tong kitar semula biru. Jika ia daripada busa atau sangat tercemar makanan, buang sebagai sampah am.",
+    "tip": "Nasihat ini untuk tab dan bekas plastik keras, bukan polistirena (Styrofoam)."
+  },
+  "milk-carton": {
+    "name": "Karton minuman",
+    "material": "Pembungkusan kertas · karton berlapik",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan, bilas dan leperkan karton sebelum memasukkannya ke dalam tong kitar semula biru.",
+    "tip": "Pastikan makanan dan cecair tidak masuk ke dalam aliran kitar semula."
+  },
+  "banana-peel": {
+    "name": "Sisa buah atau sayur",
+    "material": "Sisa makanan · organik",
+    "answer": "Sistem kompos di rumah",
+    "instruction": "Sisa ini boleh dikompos jika anda mempunyai sistem kompos rumah yang sesuai. Jika tidak, buang sebagai sampah am; jangan masukkan sisa makanan ke dalam tong kitar semula biru.",
+    "tip": "Asingkan sisa makanan daripada barang bukan makanan sebelum mengkompos."
+  },
+  "food-stained-paper": {
+    "name": "Pembungkusan kertas bernoda makanan",
+    "material": "Kertas · tercemar makanan",
+    "answer": "Sampah am",
+    "instruction": "Pembungkusan kertas bernoda makanan tidak boleh dimasukkan ke dalam tong kitar semula biru. Buang sebagai sampah am melainkan kutipan tempatan anda mempunyai laluan khas untuk sisa makanan.",
+    "tip": "Pembungkusan kertas yang bersih dan kering mungkin boleh dikitar semula; makanan atau minyak mengubah jawapannya."
+  },
+  "tissue": {
+    "name": "Kertas tisu",
+    "material": "Kertas · terpakai atau belum terpakai",
+    "answer": "Sampah am",
+    "instruction": "Kertas tisu tidak diterima dalam tong kitar semula biru Singapura. Buang sebagai sampah am.",
+    "tip": "Bukan semua kertas boleh dikitar semula. Gentian dan pencemaran mempengaruhi sama ada ia boleh diproses."
+  },
+  "styrofoam": {
+    "name": "Bekas makanan polistirena (Styrofoam)",
+    "material": "Busa · pembungkusan makanan",
+    "answer": "Sampah am",
+    "instruction": "Polistirena dan barang bernoda makanan tidak boleh dimasukkan ke dalam tong kitar semula biru. Buang barang ini sebagai sampah am.",
+    "tip": "Jika ragu-ragu, jangan masukkan barang yang meragukan ke dalam tong biru untuk mengelakkan pencemaran bahan kitar semula."
+  },
+  "battery": {
+    "name": "Bateri AA / AAA",
+    "material": "Bateri · sisa elektronik",
+    "answer": "Tong khas sisa elektronik",
+    "instruction": "Bawa bateri isi rumah ke tong kutipan khas bateri atau sisa elektronik. Jangan masukkan bateri ke dalam tong kitar semula biru atau corong sampah am.",
+    "tip": "Gunakan pencari lokasi sisa elektronik NEA untuk mencari tempat kutipan yang dilantik berhampiran anda."
+  },
+  "phone": {
+    "name": "Telefon bimbit lama",
+    "material": "Elektronik · sisa elektronik",
+    "answer": "Kutipan khas sisa elektronik",
+    "instruction": "Gunakan tempat kutipan khas sisa elektronik atau perkhidmatan pengambilan semula yang tersedia. Jangan masukkan barang elektronik ke dalam tong kitar semula biru.",
+    "tip": "Pastikan tempat kutipan menerima telefon dan padamkan data peribadi sebelum menyerahkan peranti."
+  },
+  "clothing": {
+    "name": "Pakaian atau tekstil guna semula",
+    "material": "Tekstil · bersih dan kering",
+    "answer": "Tong kutipan tekstil Cloop",
+    "instruction": "Tong tekstil kuning Cloop menerima pakaian yang bersih dan kering serta barang guna semula lain dalam senarai yang diterima. Jangan masukkan tekstil yang basah, kotor atau berkulat; semak senarai sebelum pergi.",
+    "tip": "Tong tekstil tidak sama dengan kotak derma. Kotak putih Cloop hanya menerima barang yang bersih dan berkualiti baik; tong kuning mempunyai senarai barang diterima tersendiri."
+  },
+  "plastic-bag": {
+    "name": "Beg plastik bersih",
+    "material": "Plastik · pembungkusan fleksibel",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Panduan NEA menyenaraikan beg plastik bersih untuk dikitar semula dalam tong biru. Pastikan beg kosong dan bersih; pembungkusan plastik yang tercemar atau bernoda makanan hendaklah dibuang sebagai sampah am.",
+    "tip": "Foto tidak dapat menunjukkan dengan pasti sama ada bahagian dalam bersih. Periksa sebelum mengitar semula."
+  },
+  "shampoo-bottle": {
+    "name": "Botol syampu atau detergen",
+    "material": "Plastik · bekas isi rumah",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Kosongkan botol dan bilas sebelum memasukkannya ke dalam tong kitar semula biru. Buang sisa produk jika boleh.",
+    "tip": "Panduan ini untuk botol plastik kosong, bukan mekanisme pam atau dispenser bahan campuran."
+  },
+  "magazine": {
+    "name": "Majalah atau risalah",
+    "material": "Kertas · bahan bercetak",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Pastikan kertas bercetak bersih dan kering, kemudian masukkan ke dalam tong kitar semula biru. Tanggalkan tambahan bukan kertas seperti fabrik, kerajang atau jilid besar jika boleh.",
+    "tip": "Buku dalam keadaan boleh diguna semula boleh didermakan sebaliknya."
+  },
+  "egg-tray": {
+    "name": "Dulang telur",
+    "material": "Kertas atau plastik · semak bahannya",
+    "answer": "Tong kitar semula biru jika bersih dan diterima",
+    "instruction": "Panduan NEA menyenaraikan dulang telur kertas dan plastik yang bersih sebagai pembungkusan boleh dikitar semula. Jika dulang itu daripada busa, sangat kotor atau bahannya tidak jelas, jangan masukkan ke dalam tong biru dan semak panduan tempatan.",
+    "tip": "Foto mungkin tidak dapat membezakan pulpa kertas, plastik keras dan busa. Sahkan bahannya sebelum mengasingkan."
+  },
+  "aluminium-foil": {
+    "name": "Kerajang atau dulang aluminium bersih",
+    "material": "Logam · pembungkusan aluminium",
+    "answer": "Tong kitar semula biru",
+    "instruction": "Panduan NEA menerima kerajang dan dulang aluminium yang bersih. Kosongkan dan bilas dahulu. Kerajang atau dulang kotor yang bernoda makanan atau minyak hendaklah dibuang sebagai sampah am.",
+    "tip": "Kerajang mudah tercemar; barang itu mesti kelihatan bersih sebelum dikitar semula."
+  },
+  "aerosol-can": {
+    "name": "Tin aerosol kosong",
+    "material": "Logam · bekas bertekanan",
+    "answer": "Tong kitar semula biru hanya apabila benar-benar kosong",
+    "instruction": "Kitar semula tin aerosol hanya apabila ia benar-benar kosong dan tiada produk keluar apabila disembur. Jika masih ada produk atau anda tidak pasti, jangan masukkan ke dalam tong biru; ikut panduan produk dan panduan pembuangan tempatan.",
+    "tip": "Foto tidak dapat mengesahkan bahawa tin aerosol kosong. Periksa dengan selamat sebelum mengitar semula."
+  },
+  "light-bulb": {
+    "name": "Mentol lampu atau tiub pendarfluor",
+    "material": "Sisa elektronik · pencahayaan",
+    "answer": "Kutipan khas sisa elektronik",
+    "instruction": "Jangan masukkan mentol atau tiub lampu ke dalam tong kitar semula biru. Bawa ke tempat kutipan sisa elektronik dan kendalikan mentol pecah dengan berhati-hati.",
+    "tip": "Pastikan tempat kutipan menerima jenis mentol anda sebelum pergi."
+  },
+  "laptop": {
+    "name": "Komputer riba atau tablet",
+    "material": "Elektronik · sisa elektronik",
+    "answer": "Kutipan khas sisa elektronik",
+    "instruction": "Semak dahulu sama ada peranti boleh dibaiki, diguna semula atau didermakan. Jika tidak, gunakan tempat kutipan sisa elektronik, program pengambilan semula peruncit atau perkhidmatan kutipan yang tersedia. Jangan masukkan barang elektronik ke dalam tong biru.",
+    "tip": "Padamkan data peribadi dan semak arahan pengendalian bateri sebelum menyerahkan peranti."
+  },
+  "power-bank": {
+    "name": "Bank kuasa (power bank)",
+    "material": "Bateri boleh dicas semula · sisa elektronik",
+    "answer": "Kutipan khas sisa elektronik",
+    "instruction": "Bawa bank kuasa ke tempat kutipan khas sisa elektronik. Jangan masukkan ke dalam tong kitar semula biru atau corong sampah am.",
+    "tip": "Jika bateri bengkak, panas atau rosak, elakkan memegangnya dan semak panduan keselamatan rasmi."
+  },
+  "ceramic-cookware": {
+    "name": "Perkakas memasak seramik atau Pyrex",
+    "material": "Seramik atau kaca tahan haba",
+    "answer": "Sampah am · bukan tong kitar semula biru",
+    "instruction": "Seramik, Pyrex, kaca kalis ketuhar dan kaca terbaja tidak diterima dalam tong kitar semula biru Singapura. Buang barang kecil sebagai sampah am dan kendalikan serpihan pecah dengan selamat.",
+    "tip": "Perkakas memasak tahan haba berbeza daripada botol dan balang kaca biasa."
+  }
+}
